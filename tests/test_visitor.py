@@ -2,6 +2,7 @@ import contextlib
 from textwrap import dedent
 
 from flake8_plugin_utils import utils
+
 from flake8_strings.errors import UnnecessaryBackslashEscapingError
 from flake8_strings.visitor import StringsVisitor
 
