@@ -10,6 +10,7 @@ class StringsPlugin(Plugin):
     name = 'Strings'
     version = '0.0.0'
     visitors = [StringsVisitor]
+    config = None
 
     def _create_visitor(self, visitor_cls: Type[Visitor[TConfig]]) -> Visitor[TConfig]:
         if self.config is None:
